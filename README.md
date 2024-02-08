@@ -28,8 +28,12 @@
 
 # 2.5 'use client'
 
-### Client에서 interactive 하기 위해선 use client 필요
+### Client에서 interactive 하게 하기 위해선 use client 필요 (Hydration)
 
 ### use client가 없는 컴포넌트는 기본적으로 server component
 
-##### use client를 사용한 컴포넌트도 기본적으로 서버에서 먼저 렌더링된 뒤 client에서 interactive하게 됨
+### use client를 사용한 컴포넌트도 기본적으로 서버에서 먼저 렌더링된 뒤 client에서 interactive하게 됨
+
+# 2.6 Recap
+
+### Client 컴포넌트엔 Server 컴포넌트가 들어갈 수 없기 때문에 Client 컴포넌트 내에 존재하는 컴포넌트는 Client 컴포넌트가 됨
