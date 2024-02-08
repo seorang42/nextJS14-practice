@@ -25,3 +25,11 @@
 ### JS를 활성화하면 a태그를 Link 태그가 a 태그를 대체하여 Client Side Only Navigation 방식으로 작동함 => 클릭해도 새로고침되지 않고 링크가 전환됨
 
 ##### Example : /about-us -> HTML로 변환 -> 화면에 출력 -> (React) -> init(HTML) -> 동적 상호작용 가능
+
+# 2.5 'use client'
+
+### Client에서 interactive 하기 위해선 use client 필요
+
+### use client가 없는 컴포넌트는 기본적으로 server component
+
+##### use client를 사용한 컴포넌트도 기본적으로 서버에서 먼저 렌더링된 뒤 client에서 interactive하게 됨
